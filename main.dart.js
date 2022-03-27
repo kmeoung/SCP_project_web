@@ -17936,12 +17936,11 @@ this.b=b},
 SN:function SN(a,b){this.a=a
 this.b=b},
 U1:function U1(a){this.a=a},
-uj:function uj(a,b,c,d,e){var _=this
-_.r=a
-_.db=b
-_.aM=c
-_.c4=d
-_.a=e},
+uj:function uj(a,b,c,d){var _=this
+_.db=a
+_.aM=b
+_.c4=c
+_.a=d},
 TY:function TY(a){this.a=a},
 TX:function TX(a){this.a=a},
 TV:function TV(a){this.a=a},
@@ -51028,13 +51027,12 @@ this.e.du(a)}}
 A.xP.prototype={
 aB(){return new A.Aw(B.m)}}
 A.Aw.prototype={
-gXE(){var s,r
-$.B.toString
-s=$.b2().b
+gXE(){$.B.toString
+var s=$.b2().b
 if(s.gy5()!=="/"){$.B.toString
-s=s.gy5()}else{r=this.a.cy
-if(r==null){$.B.toString
-s=s.gy5()}else s=r}return s},
+s=s.gy5()}else{this.a.toString
+$.B.toString
+s=s.gy5()}return s},
 aW(){var s=this
 s.br()
 s.a0E()
@@ -60664,7 +60662,7 @@ p=q.db
 o=p
 n=$.aaL().a
 if(n==null)n=m
-n=new A.mn(r,a.y2,m,B.DL,q.r,q.gKQ(),q.ga50(),m,s,m,m,m,m,q.ga31(),"",m,o,p,B.uG,m,n,m,m,m,B.mt,!1,!1,!1,!1,!0,m,m,!1,!1,m)
+n=new A.mn(r,a.y2,m,B.DL,m,q.gKQ(),q.ga50(),m,s,m,m,m,m,q.ga31(),"",m,o,p,B.uG,m,n,m,m,m,B.mt,!1,!1,!1,!1,!0,m,m,!1,!1,m)
 s=n
 return s},
 $S:363}
@@ -61452,7 +61450,7 @@ A.a60.prototype={}
 A.UF.prototype={}
 A.GV.prototype={
 J(a,b){var s=this,r=null,q=$.be()
-return new A.uj("/",A.acp(A.aeI(r,r,r,r,!1,q,r,B.t,r,r,r,r,r,r,r,r,r),B.t,r,B.b7,A.acn(r,r,r,A.bi(r,r,q,r,r,r,r,r,r,r,r,r,r,r,r,r,!0,r,r,r,r,r,r,r,r),A.bi(r,r,$.be(),r,r,r,r,r,r,r,r,r,r,r,r,r,!0,r,r,r,r,r,r,r,r),r,r,r,A.bi(r,r,$.be(),r,r,r,r,r,r,r,r,r,r,r,r,r,!0,r,r,r,r,r,r,r,r),A.bi(r,r,$.be(),r,r,r,r,r,r,r,r,r,r,r,r,r,!0,r,r,r,r,r,r,r,r),r,r,r,r,r,r,r,r,r)),new A.t5(new A.a_D()),A.b([s.iq("/",new A.E7(A.ip(),r)),s.iq("/team",new A.HW(A.ip(),r)),s.iq("/project/:pid/all",new A.Bx(A.ip(),r)),s.iq("/project/:pid/my",new A.F1(A.ip(),r)),s.iq("/project/:pid/task/:tid",new A.HV(A.ip(),r)),s.iq("/project/:pid/edit",A.PG()),s.iq("/project/add",A.PG()),s.iq("/project/:pid/task/:tid/edit",A.PG()),s.iq("/project/:pid/task/add",A.PG())],t.RT),r)},
+return new A.uj(A.acp(A.aeI(r,r,r,r,!1,q,r,B.t,r,r,r,r,r,r,r,r,r),B.t,r,B.b7,A.acn(r,r,r,A.bi(r,r,q,r,r,r,r,r,r,r,r,r,r,r,r,r,!0,r,r,r,r,r,r,r,r),A.bi(r,r,$.be(),r,r,r,r,r,r,r,r,r,r,r,r,r,!0,r,r,r,r,r,r,r,r),r,r,r,A.bi(r,r,$.be(),r,r,r,r,r,r,r,r,r,r,r,r,r,!0,r,r,r,r,r,r,r,r),A.bi(r,r,$.be(),r,r,r,r,r,r,r,r,r,r,r,r,r,!0,r,r,r,r,r,r,r,r),r,r,r,r,r,r,r,r,r)),new A.t5(new A.a_D()),A.b([s.iq("/",new A.E7(A.ip(),r)),s.iq("/team",new A.HW(A.ip(),r)),s.iq("/project/:pid/all",new A.Bx(A.ip(),r)),s.iq("/project/:pid/my",new A.F1(A.ip(),r)),s.iq("/project/:pid/task/:tid",new A.HV(A.ip(),r)),s.iq("/project/:pid/edit",A.PG()),s.iq("/project/add",A.PG()),s.iq("/project/:pid/task/:tid/edit",A.PG()),s.iq("/project/:pid/task/add",A.PG())],t.RT),r)},
 iq(a,b){var s=null
 return A.afF(s,s,s,B.Bs,B.Bj,B.af,s,!1,s,!0,s,a,!0,new A.a_E(b),s,s,s,!0,!0,s,B.Km,B.a1,s,t.z)}}
 A.a_D.prototype={
